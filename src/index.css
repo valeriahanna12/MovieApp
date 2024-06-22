@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Montserrat+Alternates&display=swap');
+:root{
+  --bg-color:#131722;
+  --main-font: 'Montserrat Alternates', sans-serif;
+  --light-bg:#24baef;
+  --font-color:#fff;
+}
+body{
+  background-color: var(--bg-color);
+  font-family: var(--main-font);
+  color: var(--font-color);
+}
+.cursor-pointer{
+  cursor: pointer;
+}
+a{
+  color: var(--font-color);
+  text-decoration: none; 
+}
+/* .hover-icon{
+  
+} */
+
+.brdr{
+  height: 1px;
+  background-color: #a8a8a83d;
+}
+.vote{
+  background-color: var(--light-bg);
+}
+.offline{
+  background-color: #0b1643;
+  border-radius: 15px;
+  color: #fff;
+  position: fixed;
+  left: 50px;
+  top: 50px;
+  padding: 20px;
+  z-index: 99999;
+  box-shadow: 5px 5px 15px #fff;
+
+}
+.my-input{
+  background-color: transparent;
+  border: solid 1px #a8a8a83d;
+  color: #fff;
+  margin: 5px 0;
+}
+.footer{
+  background-color: #090b10;
+  /* position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0; */
+  text-align: center;
+}
+.loading
+{
+  font-size: 80px ;
+  color: #fff;
+  position: fixed;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.genres{
+  background-color: #03739c;
+  padding: 8px;
+  border-radius: 10px;
+}
